@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <style>
-    table, tr, td, th{
-        border : 2px solid black ;
-        border-collapse: collapse ;
-    }
-    
-    </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: azure;">
     
@@ -20,6 +14,8 @@
     
    <img  src="./fotor-20240219112916 (1).jpg" alt="yaha profile ki image thi" title="profile picture" height="300">
    <h1>Abdul Ahad</h1>
+   <audio src="./image/intro.mp3.wav" controls></audio>
+   
    <hr>
    <h2>Father Name : Abdul Salam</h2>
    <h2>Date of birth : 04-may-2002</h2>
@@ -53,6 +49,14 @@
         </tr>
        
     </table>
+    <!-- adding javascript to speaker -->
+    <script>
+        var audio = new Audio("./image/intro.mp3");
+        function playAudio(){
+            audio.play();
+        }
+        document.getElementById("speaker").addEventListener("click",playAudio);
+    </script>
     
 </body><br><br>
 <footer style="text-align: center; background-color: black ; padding: 50px;color: white;">

@@ -1,0 +1,13 @@
+
+table, tr, td, th{
+    border : 2px solid black ;
+    border-collapse: collapse ;
+}
+a:hover{
+    background-color: yellow;
+    color: hsl(0, 100%, 50%);
+}
+a:visited{
+    color:rgba(220, 222, 220, 0.409) ;
+    background-color:rgba(63, 203, 70, 0.3) ;
+}
