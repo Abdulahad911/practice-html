@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="background-color: azure;">
-    
-    <a href="./contact.html">Contact</a><br>
-    <a href="./project.html">Project</a><br>
-    <a href="./skills.html">skills</a><br>
-    
-   <img  src="./fotor-20240219112916 (1).jpg" alt="yaha profile ki image thi" title="profile picture" height="300">
-   <h1>Abdul Ahad</h1>
-   <audio src="./image/intro.mp3.wav" controls></audio>
-   
-   <hr>
-   <h2>Father Name : Abdul Salam</h2>
-   <h2>Date of birth : 04-may-2002</h2>
-   <h2>Domicile : Peshawar</h2>
-   <h2>Religion : Islam</h2>
-   <h2>Nationalitily : Pakistani</h2><hr>
+    <nav class="bar">
+        <span> <a href="./contact.html">Contact</a></span>
+        <span><a href="./project.html">Project</a></span>
+        <span> <a href="./skills.html">skills</a></span>
+    </nav>
+
+    <img src="./fotor-20240219112916 (1).jpg" alt="yaha profile ki image thi" title="profile picture" height="300">
+    <h1>Abdul Ahad</h1>
+    <audio src="./image/intro.mp3.wav" controls></audio>
+
+    <hr>
+    <h2>Father Name : Abdul Salam</h2>
+    <h2>Date of birth : 04-may-2002</h2>
+    <h2>Domicile : Peshawar</h2>
+    <h2>Religion : Islam</h2>
+    <h2>Nationalitily : Pakistani</h2>
+    <hr>
     <!--Tables-->
     <h1>Qualifications :</h1>
     <table>
@@ -39,30 +43,36 @@
             <td>A1</td>
             <td>Frontier Model School Warsak Road Peshawar</td>
         </tr>
-       
-            <tr style="background-color: lavenderblush;">
+
+        <tr style="background-color: lavenderblush;">
             <td>HSSC</td>
             <td>Pre-Medical</td>
             <td>2021</td>
             <td>A</td>
             <td>Peshawar Public School & College Warsak Road Peshawar</td>
         </tr>
-       
+
     </table>
     <!-- adding javascript to speaker -->
     <script>
         var audio = new Audio("./image/intro.mp3");
-        function playAudio(){
+        function playAudio() {
             audio.play();
         }
-        document.getElementById("speaker").addEventListener("click",playAudio);
+        document.getElementById("speaker").addEventListener("click", playAudio);
     </script>
-    
+
 </body><br><br>
-<footer style="text-align: center; background-color: black ; padding: 50px;color: white;">
-    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BlXtJUZ%2BfRJmhGmLD%2FmDU0A%3D%3D"><img src="./linkdin.png" alt="my linkedin" title="My linkedin" width="50"></a>
-    <a href="https://github.com/Abdulahad911/practice-html.git"><img src="./github.jpg" alt="my github" title="My github" width="50" height="50"></a>
-    <a href="https://www.facebook.com/profile.php?id=100013248979266&mibextid=ZbWKwL"><img src="./facebook.png" alt="my facebook" title="My facebook" width="50"></a>
-    <p>Copyright &copy 2024 Apun</p>
+<footer class="ft">
+    <p> <img src="./bg-remover-2024021917200-Photoroom.jpg" alt="" width="50px">Copyright &copy 2024 Apun</p>
+    <a
+        href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BlXtJUZ%2BfRJmhGmLD%2FmDU0A%3D%3D"><img
+            src="./linkdin.png" alt="my linkedin" title="My linkedin" width="50"></a>
+    <a href="https://github.com/Abdulahad911/practice-html.git"><img src="./github.jpg" alt="my github"
+            title="My github" width="50" height="50"></a>
+    <a href="https://www.facebook.com/profile.php?id=100013248979266&mibextid=ZbWKwL"><img src="./facebook.png"
+            alt="my facebook" title="My facebook" width="50"></a>
+
 </footer>
+
 </html>

@@ -1,13 +1,67 @@
+table,
+tr,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
 
-table, tr, td, th{
-    border : 2px solid black ;
-    border-collapse: collapse ;
+a:hover {
+
+    color: hsl(0, 95%, 43%);
 }
-a:hover{
-    background-color: yellow;
-    color: hsl(0, 100%, 50%);
+
+a:visited {
+    color: rgba(220, 222, 220, 0.409);
+    background-color: rgba(63, 203, 70, 0.3);
 }
-a:visited{
-    color:rgba(220, 222, 220, 0.409) ;
-    background-color:rgba(63, 203, 70, 0.3) ;
+
+.bar {
+    padding: 5px;
+    background-color: rgb(16, 16, 15);
+    margin: 0;
+    box-shadow: 2px 1px 6px 1px #e40e0e;
+    position: sticky;
+    top: 0;
+
+
+
+}
+
+.bar span {
+    margin: 50px;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+.ft {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    text-align: left;
+    margin: 30px;
+
+
+}
+
+footer img {
+    margin: 20px 0 0 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
